@@ -55,5 +55,5 @@ image[:int(T*0.4) , int(R*0.75):int(R*0.785)] = Gris
 image[int(T*0.4):int(T*0.55) , int(R*0.17):int(R*0.350)] = first_co
 
 image[int(T*0.4):int(T*0.55) , int(R*0.67):int(R*0.850)] = second_co
-
-Image.fromarray(image).save("image.png")
+location = input("the file where u will store the image (png/jpj extensio : ")
+Image.fromarray(image).save(location)
