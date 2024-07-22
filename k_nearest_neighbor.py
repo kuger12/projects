@@ -2,6 +2,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+"""this code classes iris flowers based on the sepales 
+and petales on 3 clsses iris-setosa  ,iris-versicolor  ,iris-virginica
+"""
+
 # it s just a function to visualize the data set , just skip it
 def data_visualisation() : 
     df = pd.read_csv("/home/yassine/Desktop/unreal/bezdekIris.data" , names = ["sepal_lenght" , "sepal_width" , "petal_lenght" , "petal_width" , "type"])
